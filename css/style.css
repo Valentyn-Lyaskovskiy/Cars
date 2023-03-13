@@ -74,7 +74,7 @@ ul {
   gap: 35px;
 }
 
-.menu__item{
+.menu__item {
   cursor: pointer;
 }
 
@@ -117,7 +117,14 @@ ul {
   color: #ffffff;
 }
 
-.swiper-wrapper {
+.swiper::after {
+  position: absolute;
+  z-index: 3;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   background: rgba(21, 21, 21, 0.3);
 }
 
@@ -126,6 +133,24 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+  background: #151515;
+  width: 120px;
+  height: 3px;
+  border-radius: 0;
+  opacity: 1;
+  margin: 0 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff;
+  height: 6px;
 }
 
 /*       Footer      */
