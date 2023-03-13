@@ -20,6 +20,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 121%; /* 29px/24 */
+  color: #151515;
 }
 
 a {
@@ -170,7 +171,7 @@ ul {
   gap: 40px;
 }
 
-.why__title{
+.general-title{
   font-weight: 700;
   font-size: 48px;
   text-align: center;
@@ -193,6 +194,38 @@ ul {
   line-height: 130%;
 }
 
+/*       How     */
+
+.how{
+  margin-bottom: 150px;
+}
+
+.how__inner{
+}
+
+.how__inner-text,
+.how__final-par{
+  line-height: 130%;
+}
+
+.how__inner-text{
+  margin: 0 auto;
+  max-width: 580px;
+  margin-bottom: 50px;
+}
+
+.how__inner-title{
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.how__inner-rules{
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 /*       Footer      */
 
 .footer {
