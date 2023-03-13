@@ -74,11 +74,16 @@ ul {
   gap: 35px;
 }
 
+.menu__item{
+  cursor: pointer;
+}
+
 .menu__link {
   font-weight: 700;
   line-height: 118.75%; /* 19px/16 */
   color: #ffffff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /*       Main Section      */
@@ -90,13 +95,13 @@ ul {
   right: 0;
   color: #ffffff;
   text-align: center;
-  padding-top: 250px;
-  padding-bottom: 50px;
+  padding-top: 287px;
 }
 
 .main__title {
   font-weight: 700;
   font-size: 96px;
+  margin-bottom: 76px;
 }
 
 .main__link {
@@ -113,7 +118,7 @@ ul {
 }
 
 .swiper-wrapper {
-  /* background: rgba(21, 21, 21, 0.3); */
+  background: rgba(21, 21, 21, 0.3);
 }
 
 .swiper-slide {
