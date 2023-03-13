@@ -62,8 +62,8 @@ ul {
 }
 
 .header_main {
-  background-color: transparent;
   position: absolute;
+  background-color: transparent;
   z-index: 2;
   left: 0;
   right: 0;
@@ -151,6 +151,46 @@ ul {
 .swiper-pagination-bullet-active {
   background: #fff;
   height: 6px;
+}
+
+.slider{
+  margin-bottom: 150px;
+}
+
+/*       Why      */
+
+.why{
+  margin-bottom: 150px;
+  color: #151515;
+}
+
+.why__inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.why__title{
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why__item-title{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.why__item-img{
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.why__item-text{
+  line-height: 130%;
 }
 
 /*       Footer      */
