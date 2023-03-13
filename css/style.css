@@ -38,14 +38,28 @@ ul {
   flex-direction: column;
 }
 
-.main {
-  flex-grow: 1;
-}
-
 .container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.general-title {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.inner-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+  line-height: inherit;
 }
 
 /*       Header      */
@@ -96,7 +110,8 @@ ul {
   right: 0;
   color: #ffffff;
   text-align: center;
-  padding-top: 287px;
+  padding-top: 164px;
+  /* padding-top: 287px; */
 }
 
 .main__title {
@@ -121,7 +136,7 @@ ul {
 .swiper::after {
   position: absolute;
   z-index: 3;
-  content: '';
+  content: "";
   left: 0;
   right: 0;
   top: 0;
@@ -154,78 +169,96 @@ ul {
   height: 6px;
 }
 
-.slider{
+.slider {
   margin-bottom: 150px;
 }
 
 /*       Why      */
 
-.why{
+.why {
   margin-bottom: 150px;
   color: #151515;
 }
 
-.why__inner{
+.why__inner {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 
-.general-title{
-  font-weight: 700;
-  font-size: 48px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.why__item-title{
+.why__item-title {
   text-align: center;
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 24px;
 }
 
-.why__item-img{
+.why__item-img {
   display: block;
   margin: 0 auto 30px;
 }
 
-.why__item-text{
+.why__item-text {
   line-height: 130%;
 }
 
 /*       How     */
 
-.how{
+.how {
   margin-bottom: 150px;
 }
 
-.how__inner{
-}
-
-.how__inner-text,
-.how__final-par{
+.how__inner,
+.how__final-par {
+  max-width: 580px;
+  margin: 0 auto;
   line-height: 130%;
 }
 
-.how__inner-text{
-  margin: 0 auto;
-  max-width: 580px;
+.how__inner-text {
   margin-bottom: 50px;
 }
 
-.how__inner-title{
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 50px;
+.how__inner-text_1 {
+  max-width: 280px;
+  margin-bottom: 40px;
+  padding: 18.5px 7px;
 }
 
-.how__inner-rules{
+.how__inner-text_1:nth-child(2) {
+  padding: 29px 7px;
+}
+
+.how__inner-rules {
   margin-bottom: 70px;
   display: flex;
-  justify-content: center;
-  align-items:center;
+  justify-content: end;
+  gap: 140px;
 }
+
+.how__icon {
+  margin-bottom: 40px;
+}
+
+/*       Video      */
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video__title {
+  margin-bottom: 20px;
+}
+
+.video__inner-title {
+  text-align: center;
+}
+
+.video__content {
+  margin: 0 auto;
+  display: block;
+}
+
 /*       Footer      */
 
 .footer {
