@@ -261,27 +261,26 @@ ul {
 
 /*       Things    */
 
-.things{
+.things {
   margin-bottom: 150px;
 }
 
-.things__text{
+.things__text {
   max-width: 580px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
-.things__inner{
+.things__inner {
   display: flex;
   justify-content: space-between;
   gap: 40px;
   line-height: 130%;
 }
 
-.things__inner-item img{
+.things__inner-item img {
   margin-bottom: 20px;
 }
-
 
 /*       Footer      */
 
@@ -330,4 +329,93 @@ ul {
   display: flex;
   gap: 40px;
   justify-content: center;
+}
+
+/*      Contact   */
+
+.contact {
+  margin-bottom: 150px;
+}
+
+.menu__link_blue{
+  color: #0066ff;
+}
+
+.contact__title {
+  margin: 100px 0 20px;
+}
+
+.contact__text {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120.833333%; /* 29px/24 */
+  color: #000000;
+}
+
+.contact__form {
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form__name,
+.form__email {
+  width: 270px;
+  display: inline-block;
+  padding: 18px 20px;
+  border: 1px solid #0066ff;
+  margin-bottom: 50px;
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form__textarea {
+  width: 100%;
+  min-height: 290px;
+  resize: none;
+  margin-bottom: 50px;
+  padding: 28px 20px;
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #0066ff;
+}
+
+.form__name::placeholder,
+.form__email::placeholder,
+.form__textarea::placeholder {
+  opacity: 0.5;
+  color: #151515;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* .form__btn:hover{
+  background-color:#0066ff;
+} */
+
+.form__btn{
+  /* transition: all .7s ease; */
+  margin: 0 auto;
+  background: #151515;
+  color: #fff;
+  padding: 13px 61px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: uppercase;
+  cursor: pointer;
 }
