@@ -19,7 +19,6 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 121%; /* 29px/24 */
   color: #151515;
 }
 
@@ -191,6 +190,7 @@ ul {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 24px;
+  line-height: 58px;
 }
 
 .why__item-img {
@@ -258,6 +258,30 @@ ul {
   margin: 0 auto;
   display: block;
 }
+
+/*       Things    */
+
+.things{
+  margin-bottom: 150px;
+}
+
+.things__text{
+  max-width: 580px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.things__inner{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  line-height: 130%;
+}
+
+.things__inner-item img{
+  margin-bottom: 20px;
+}
+
 
 /*       Footer      */
 
