@@ -78,7 +78,7 @@ ul {
 .header_main {
   position: absolute;
   background-color: transparent;
-  z-index: 2;
+  z-index: 3;
   left: 0;
   right: 0;
 }
@@ -109,7 +109,7 @@ ul {
   right: 0;
   color: #ffffff;
   text-align: center;
-  padding-top: 164px;
+  padding-top: 247px;
   /* padding-top: 287px; */
 }
 
