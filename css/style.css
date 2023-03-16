@@ -94,7 +94,8 @@ ul {
 
 .menu__link {
   font-weight: 700;
-  line-height: 118.75%; /* 19px/16 */
+  line-height: 118.75%;
+    /* 19px/16 */
   color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
@@ -128,7 +129,8 @@ ul {
   display: inline-block;
   font-weight: 700;
   font-size: 36px;
-  line-height: 122%; /* 44px/36 */
+  line-height: 122%;
+    /* 44px/36 */
   color: #ffffff;
 }
 
@@ -150,7 +152,7 @@ ul {
   /* background-position: center; */
 }
 
-.swiper-horizontal > .swiper-pagination-bullets {
+.swiper-horizontal>.swiper-pagination-bullets {
   bottom: 30px;
 }
 
@@ -303,7 +305,7 @@ ul {
   padding-bottom: 20px;
 }
 
-.footer__item + .footer__item {
+.footer__item+.footer__item {
   padding-top: 20px;
 }
 
@@ -350,7 +352,8 @@ ul {
   text-align: center;
   font-weight: 700;
   font-size: 24px;
-  line-height: 120.833333%; /* 29px/24 */
+  line-height: 120.833333%;
+    /* 29px/24 */
   color: #000000;
 }
 
@@ -423,6 +426,7 @@ ul {
 /*       Blog     */
 
 .blog {
+  margin-top: 150px;
   margin-bottom: 150px;
 }
 
@@ -446,7 +450,8 @@ ul {
 .blog__text {
   font-weight: 700;
   font-size: 24px;
-  line-height: 120.833333%; /* 29px/24 */
+  line-height: 120.833333%;
+    /* 29px/24 */
 }
 
 .blog__link {
@@ -470,4 +475,88 @@ ul {
   line-height: 130%;
   width: 223px;
   cursor: pointer;
+}
+
+/*       Choose     */
+
+.choose__title {
+  margin-top: 100px;
+}
+
+.choose__btn {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.choose__tabs {
+  margin-bottom: 70px;
+}
+
+.choose__btn-item+.choose__btn-item {
+  margin-left: 80px;
+}
+
+.choose__btn-item {
+  font-family: "Inter", sans-serif;
+  color: #151515;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.choose__btn-item_blue {
+  color: #0066ff;
+}
+
+.choose__content-item {
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.choose__content-item.choose__content-item_open {
+  display: grid;
+}
+
+
+.card__content>* {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card__content {
+  border: 1px solid #0066ff;
+  border-top: 0;
+}
+
+.card__img {
+  margin-bottom: 0;
+  display: block;
+}
+
+.card__link {
+  /* margin-bottom: 100px; */
+  border: 1px solid #0066ff;
+  border-top: 0;
+  display: block;
+}
+
+.card__link {
+  display: block;
+  color: #0066ff;
+  text-align: center;
+  padding: 2px 2px;
+}
+
+.card__title {
+  padding-top: 20px;
+}
+
+.card__title,
+.choose__btn-item,
+.card__price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 121%;
+  /* 29px/24 */
 }
