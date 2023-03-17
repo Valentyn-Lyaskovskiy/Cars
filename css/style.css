@@ -642,7 +642,10 @@ ul {
       transform: translateX(200%);
       transition: all 0.5s ease-in-out;
     }
-
+    
+        .menu__list_active {
+          transform: translateX(0);
+        }
     .menu__btn_active span:nth-child(1) {
       transform: rotate(45deg);
     }
@@ -654,8 +657,5 @@ ul {
     .menu__btn_active span:nth-child(3) {
       transform: rotate(-45deg);
       margin-bottom: 17px;
-    }
-    .menu__list_active {
-      transform: translateX(0);
-    }
+    
 }
