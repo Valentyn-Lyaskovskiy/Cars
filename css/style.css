@@ -95,7 +95,7 @@ ul {
 .menu__link {
   font-weight: 700;
   line-height: 118.75%;
-    /* 19px/16 */
+  /* 19px/16 */
   color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
@@ -130,7 +130,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 122%;
-    /* 44px/36 */
+  /* 44px/36 */
   color: #ffffff;
 }
 
@@ -353,7 +353,7 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 120.833333%;
-    /* 29px/24 */
+  /* 29px/24 */
   color: #000000;
 }
 
@@ -451,7 +451,7 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 120.833333%;
-    /* 29px/24 */
+  /* 29px/24 */
 }
 
 .blog__link {
@@ -559,4 +559,37 @@ ul {
   font-size: 24px;
   line-height: 121%;
   /* 29px/24 */
+}
+/*     Media   */
+
+@media (max-width: 1227px) {
+  .things__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .things__inner-item {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    width: 270px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .video__content {
+    width: 100%;
+  }
+
+  .why__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .things__inner {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
