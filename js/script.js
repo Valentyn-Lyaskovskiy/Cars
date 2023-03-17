@@ -24,6 +24,12 @@ tabs.forEach((value) => {
   value.addEventListener("click", open);
 });
 
+const menuBtn = document.querySelector('.menu__btn');
+const menu = document.querySelector('.menu__list');
+menuBtn.addEventListener('click', function () {
+  menu.classList.toggle('menu__list_active')
+})
+
 const swiper = new Swiper(".swiper", {
   effect: "fade",
   pagination: {
