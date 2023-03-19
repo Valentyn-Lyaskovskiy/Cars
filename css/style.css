@@ -692,6 +692,7 @@ ul {
 
   .slider,
   .how,
+  .things,
   .video,
   .why {
     margin-bottom: 80px;
@@ -723,6 +724,10 @@ ul {
     flex-direction: column;
     gap: 20px;
   }
+
+  .copy-nav__list {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 425px) {
@@ -732,5 +737,9 @@ ul {
 
   .footer__app {
     gap: 0px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 50px;
   }
 }
