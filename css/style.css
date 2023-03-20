@@ -111,7 +111,6 @@ ul {
   color: #ffffff;
   text-align: center;
   padding-top: 247px;
-  /* padding-top: 287px; */
 }
 
 .main__title {
@@ -419,6 +418,7 @@ ul {
   line-height: 130%;
   text-transform: uppercase;
   cursor: pointer;
+  border: none;
 }
 
 /*       Blog     */
@@ -733,12 +733,13 @@ ul {
   .how,
   .things,
   .video,
+  .contact,
   .why {
     margin-bottom: 80px;
   }
 
   .blog {
-    margin: 80px 0 80px;
+    margin: 80px 0 30px;
   }
 
   .main__title {
