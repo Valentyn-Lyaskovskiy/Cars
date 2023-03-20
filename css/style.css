@@ -602,8 +602,8 @@ ul {
   }
 
   .blog__items {
-    margin-bottom: 20px;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .blog__item {
@@ -776,8 +776,9 @@ ul {
   .footer__menu {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .blog__item img {
-    width: 50%;
+    width: 100%;
   }
 }
 
