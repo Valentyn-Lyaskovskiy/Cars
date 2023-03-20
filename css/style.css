@@ -580,6 +580,10 @@ ul {
   transition: all 0.5s ease-in;
 }
 
+.card__img {
+  width: 100%;
+}
+
 @media (max-width: 1227px) {
   .things__inner {
     display: grid;
@@ -591,6 +595,24 @@ ul {
     justify-items: center;
     text-align: center;
     width: 270px;
+  }
+
+  .choose__content-item {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 30px;
+  }
+
+  .blog__items{
+    grid-template-columns: 1fr;
+    gap: 40px 0;
+  }
+
+  .blog__item{
+    justify-content: center;
+  }
+
+  .blog__text{
+    margin-right: 7%;
   }
 }
 
